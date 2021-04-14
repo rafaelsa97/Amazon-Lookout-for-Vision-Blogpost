@@ -1,1 +1,3 @@
-# Amazon-Lookout-for-Vision-Blogpost
+# Amazon Lookout for Vision
+
+Nessa série de blogposts, vamos explorar as funcionalidades de cada um desses serviços, começando pelo Amazon Lookout for vision. A detecção de anomalias de fotos de peças por exemplo, é tarefa particularmente difícil, dado a complexidade necessária para um modelo eficaz. Nesse blogpost vamos utilizar um dataset público do Kaggle que pode ser encontrado no link https://www.kaggle.com/ravirajsinh45/real-life-industrial-dataset-of-casting-product?select=casting_datapara detectar anomalias em imagens de um impulsor. Nesse experimento vamos utilizar uma subset dos itens da pasta “casting_data”, já categorizados entre normal(ok_front) e anormal(def_front) e teremos duas versões, uma para efeito demonstrativo via console que veremos no blogpost(## TODO ##) e outra via código com jupyter notebook, que se encontra nesse git.
